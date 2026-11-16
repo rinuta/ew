@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victoria's Secret Angels</title>
+
+    <style>
+        body {
+            margin: 0;
+            background: white;
+            font-family: Arial, sans-serif;
+            color: black;
+        }
+
+        header {
+            text-align: center;
+            padding: 35px;
+        }
+
+        header h1 {
+            font-family: Georgia, serif;
+            font-size: 38px;
+            letter-spacing: 5px;
+        }
+
+        header p {
+            color: #d45b8b;
+            letter-spacing: 4px;
+        }
+
+        nav {
+            background: #fff3f7;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav a {
+            color: black;
+            text-decoration: none;
+            margin: 15px;
+            font-size: 13px;
+        }
+
+        nav a:hover {
+            color: #d45b8b;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero h2 {
+            font-family: Georgia, serif;
+            font-size: 45px;
+        }
+
+        .hero p {
+            color: #c44b7c;
+        }
+
+        .models {
+            max-width: 1000px;
+            margin: auto;
+            padding: 30px;
+        }
+
+        .models h2 {
+            text-align: center;
+            font-family: Georgia, serif;
+            font-size: 30px;
+        }
+
+        .angel {
+            display: flex;
+            gap: 35px;
+            align-items: center;
+            margin: 60px 0;
+        }
+
+        .angel img {
+            width: 330px;
+            height: 420px;
+            object-fit: cover;
+        }
+
+        .angel-info {
+            flex: 1;
+        }
+
+        .angel-info h3 {
+            font-family: Georgia, serif;
+            font-size: 30px;
+        }
+
+        .angel-info p {
+            line-height: 1.8;
+        }
+
+        .pink1 {
+            color: #c2185b;
+        }
+
+        .pink2 {
+            color: #d45b8b;
+        }
+
+        .pink3 {
+            color: #e88ab0;
+        }
+
+        .button {
+            display: inline-block;
+            background: black;
+            color: white;
+            padding: 13px 25px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        .button:hover {
+            background: #d45b8b;
+        }
+
+        footer {
+            text-align: center;
+            padding: 35px;
+            background: #fff3f7;
+            color: #d45b8b;
+        }
+
+        @media (max-width: 700px) {
+            .angel {
+                flex-direction: column;
+            }
+
+            .angel img {
+                width: 100%;
+                height: auto;
+            }
+
+            .hero h2 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>VICTORIA'S SECRET</h1>
+    <p>THE ANGELS COLLECTION</p>
+</header>
+
+<nav>
+    <a href="#home">HOME</a>
+    <a href="#angels">ANGELS</a>
+    <a href="#about">ABOUT</a>
+</nav>
+
+<section class="hero" id="home">
+    <h2>THE ANGELS</h2>
+    <p>Discover the iconic faces of fashion.</p>
+</section>
+
+<section class="models" id="angels">
+
+    <h2>OUR ICONS</h2>
+
+    <div class="angel">
+
+        <img src="images/Adriana.jpg" alt="Adriana Lima">
+        <img src="images/adriana lima.jpg" alt="Adriana Lima">
+
+        <div class="angel-info">
+            <h3>Adriana Lima</h3>
+
+            <p class="pink1">
+                Adriana Lima was born on June 12, 1981,
+                in Salvador, Brazil.
+            </p>
+
+            <p class="pink2">
+                She became one of the most iconic
+                Victoria's Secret Angels. She first
+                walked in the Victoria's Secret
+                Fashion Show in 1999.
+            </p>
+
+            <p class="pink3">
+                Her career made her one of the most
+                recognizable models in the fashion world.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="angel">
+
+        <img src="images/tyra.jpg" alt="Tyra Banks">
+        <img src="images/tyra blanks.jpg alt="Tyra Banks">
+
+        <div class="angel-info">
+            <h3>Tyra Banks</h3>
+
+            <p class="pink2">
+                Tyra Banks was born on December 4, 1973,
+                in California, USA.
+            </p>
+
+            <p class="pink3">
+                She became a famous model and television
+                personality. Her first Victoria's Secret
+                Fashion Show was in 1996.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="angel">
+
+        <img src="images/2010.jpg" alt="Candice Swanepoel">
+        <img src="images/Candice Swanepoel.jpg" alt="Candice Swanepoel">
+
+        <div class="angel-info">
+            <h3>Candice Swanepoel</h3>
+
+            <p class="pink3">
+                Candice Swanepoel is a South African
+                fashion model.
+            </p>
+
+            <p class="pink1">
+                She became internationally famous
+                through her work with Victoria's Secret
+                and its fashion shows.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="hero" id="about">
+    <h2>ABOUT THE ANGELS</h2>
+    <p>
+        A tribute to iconic models,
+        fashion and unforgettable moments.
+    </p>
+</section>
+
+<footer>
+    <p>VICTORIA'S SECRET ANGELS ♥</p>
+    <p>Made with love</p>
+</footer>
+
+</body>
+</html>
